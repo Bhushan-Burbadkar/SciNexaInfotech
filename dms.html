@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document Management System - SciNEXA</title>
+<meta name="description" content="SciNEXA Document Management System for pharma with version control, controlled printing, barcode-based copy management, SOP workflows, and audit-ready compliance.">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<meta name="theme-color" content="#0033a0">
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header" id="header">
+    <div class="header-container">
+        <a href="index.html" class="logo" aria-label="SciNEXA Infotech home"><img src="images/scinexa-logo.png" alt="SciNEXA Infotech - Science + IT"></a>
+        <nav class="nav" id="nav" aria-label="Primary">
+            <a href="index.html" class="nav-link">Home</a>
+            <div class="dropdown">
+                <a href="index.html#gmp-solutions" class="nav-link dropdown-trigger" aria-haspopup="true">GMP Solutions &#9662;</a>
+                <div class="dropdown-menu"><div class="dropdown-column"><h4><span class="icon"><svg class="ic ic-shield" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="t" d="M12 3l7.5 3v5.5c0 4.5-3.2 8-7.5 9.5-4.3-1.5-7.5-5-7.5-9.5V6z"/><path class="ac" d="M8.7 12l2.4 2.4 4.2-4.6"/></svg></span>Quality</h4><a href="APQR.html">APQR <span>Annual Product Quality Review</span></a><a href="CPV.html">CPV <span>Continued Process Verification</span></a><a href="CVS.html">CVS <span>Cleaning Validation Software</span></a><a href="eQMS.html">eQMS <span>Electronic Quality Management System</span></a><a href="dms.html" aria-current="page">DMS <span>Document Management System</span></a><a href="LMS.html">LMS <span>Learning Management System</span></a></div><div class="dropdown-column"><h4><span class="icon"><svg class="ic ic-flask" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="t" d="M9.5 3h5M10.5 3v6L5 18.6A1.6 1.6 0 0 0 6.4 21h11.2a1.6 1.6 0 0 0 1.4-2.4L13.5 9V3"/><path class="ac" d="M7.6 15.5h8.8"/><circle class="a" cx="12" cy="18.2" r=".9"/></svg></span>Laboratory</h4><a href="LIMS.html">LIMS <span>Laboratory Information Management System</span></a><a href="Stability.html">Stability <span>Advanced Stability Management</span></a><a href="QCPlanning.html">QC Planning <span>QC Planning &amp; Scheduling</span></a></div><div class="dropdown-column"><h4><span class="icon"><svg class="ic ic-factory" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="t" d="M3 20V10.5l6 3.5v-3.5l6 3.5V5.5h4.5V20z"/><path class="ac" d="M7 17h1.5M11.5 17H13M16 17h1.5"/></svg></span>Manufacturing</h4><a href="eBMR.html">eBMR/MES <span>Manufacturing Execution System</span></a><a href="eLogbook.html">eLogbook <span>Electronic Logbook Software</span></a><a href="CAPS.html">CAPS <span>Calibration &amp; Preventive Maintenance</span></a></div><div class="dropdown-column"><h4><span class="icon"><svg class="ic ic-clock" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle class="t" cx="12" cy="12" r="9"/><path class="ac" d="M12 7v5l3.2 2"/></svg></span>Regulatory &amp; IT</h4><a href="UAM.html">UAM <span>User Access Management</span></a><a href="RIMS.html">RIMS <span>Regulatory Information Management</span></a></div></div>
+            </div>
+            <a href="index.html#solutions" class="nav-link">Solutions</a>
+            <a href="index.html#modules" class="nav-link">Modules</a>
+            <a href="index.html#features" class="nav-link">Benefits</a>
+            <a href="index.html#about" class="nav-link">About</a>
+            <a href="index.html#contact" class="nav-link">Contact</a>
+        </nav>
+        <a href="index.html#contact" class="btn btn-primary header-cta">Get Started</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu" aria-expanded="false"><span class="hamburger"></span></button>
+    </div>
+</header>
+
+<main class="dms-product-page">
+    <section class="dms-hero">
+        <div class="dms-hero-bg"></div>
+        <div class="container dms-hero-grid">
+            <div class="dms-hero-copy">
+                <span class="section-badge dms-badge-dark">AI-Powered eDMS</span>
+                <h1 class="dms-hero-title">Electronic Document Management System for pharma</h1>
+                <p class="dms-hero-text">
+                    SciNEXA DMS gives regulated teams full control over SOPs, technical records, quality documents, print issuance, superseding workflows, and audit-ready retrieval with a pharma-grade document lifecycle platform.
+                </p>
+                <div class="dms-hero-actions">
+                    <a href="index.html#contact" class="btn btn-primary">Schedule a Demo</a>
+                    <a href="#dms-problems" class="btn dms-outline-btn">Explore DMS Flow</a>
+                </div>
+                <div class="dms-metrics-row">
+                    <div class="dms-metric-chip"><strong>25%</strong><span>Audit findings reduction</span></div>
+                    <div class="dms-metric-chip"><strong>30%</strong><span>Time to release improvement</span></div>
+                    <div class="dms-metric-chip"><strong>50%</strong><span>Manual effort saved</span></div>
+                    <div class="dms-metric-chip"><strong>21 CFR</strong><span>Part 11 ready workflows</span></div>
+                </div>
+            </div>
+
+            <aside class="dms-hero-panel">
+                <div class="dms-panel-top">
+                    <span>Controlled SOPs</span>
+                    <span>Print Issuance</span>
+                </div>
+                <h2>Control every document from creation to archive.</h2>
+                <p>
+                    Manage document lifecycle approvals, versioning, barcode-enabled print control, and obsolete copy retirement with a workflow designed for GxP operations.
+                </p>
+                <div class="dms-panel-grid">
+                    <div><strong>Core Scope</strong><span>SOPs, quality records, manufacturing documents, lab methods, technical files, and study documentation</span></div>
+                    <div><strong>Control Layer</strong><span>Version control, superseding logic, e-signatures, print tracking, and audit trail depth</span></div>
+                    <div><strong>Business Value</strong><span>Faster retrieval, stronger traceability, cleaner inspections, and reduced document drift</span></div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <section class="dms-problems" id="dms-problems">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">The Problem</span>
+                <h2 class="section-title">Key challenges without pharma-grade document control software</h2>
+                <p class="section-subtitle">
+                    Paper-driven or partly digital document systems continue to slow release cycles, create obsolete-copy risk, and increase audit exposure across regulated sites.
+                </p>
+            </div>
+
+            <div class="dms-problem-grid">
+                <article class="dms-problem-card">
+                    <span>1</span>
+                    <h3>Paper or Partially Digital Systems Persist</h3>
+                    <p>Teams still spend significant weekly effort tracking documents manually, retrieving approved versions, and reconciling issuance history.</p>
+                </article>
+                <article class="dms-problem-card">
+                    <span>2</span>
+                    <h3>Weak Version Control</h3>
+                    <p>Operators may use outdated SOPs when versioning, release controls, and superseding workflows are not properly enforced.</p>
+                </article>
+                <article class="dms-problem-card">
+                    <span>3</span>
+                    <h3>No Barcode Tracking or Print Governance</h3>
+                    <p>Physical copies remain in circulation without reliable traceability, watermarking, or proof of retrieval and retirement.</p>
+                </article>
+                <article class="dms-problem-card">
+                    <span>4</span>
+                    <h3>Limited Integration with Quality and Training</h3>
+                    <p>Disconnected systems break traceability between SOP changes, training assignments, deviations, and shopfloor execution.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="dms-foundation">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Compliance Foundation</span>
+                <h2 class="section-title">What a pharma-grade electronic document management system must deliver</h2>
+            </div>
+
+            <div class="dms-foundation-grid">
+                <article class="dms-foundation-card"><h3>Document Lifecycle Management</h3><p>Cover drafting, review, approval, release, superseding, obsolescence, and archive access in one governed workflow.</p></article>
+                <article class="dms-foundation-card"><h3>Validation and Controls</h3><p>Support validated approval workflows, electronic signatures, and mapped regulatory controls.</p></article>
+                <article class="dms-foundation-card"><h3>Integration and Automation</h3><p>Connect with training, quality, labs, and manufacturing systems to reduce manual reconciliation.</p></article>
+                <article class="dms-foundation-card"><h3>Regulatory Compliance</h3><p>Align to 21 CFR Part 11, Annex 11, GxP document management, and complete auditability expectations.</p></article>
+                <article class="dms-foundation-card"><h3>Traceability and Security</h3><p>Ensure robust version control, print governance, access security, searchability, and point-of-use confidence.</p></article>
+            </div>
+        </div>
+    </section>
+
+    <section class="dms-document-types">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Document Control</span>
+                <h2 class="section-title">Core document types managed in a pharmaceutical DMS</h2>
+            </div>
+
+            <div class="dms-type-grid">
+                <article class="dms-type-card">
+                    <h3>Quality Documents</h3>
+                    <ul class="dms-bullet-list">
+                        <li>SOPs with version control and approval history</li>
+                        <li>Change control records with linked evidence</li>
+                        <li>Training-linked documents for compliance traceability</li>
+                        <li>Obsolete copy management and superseding control</li>
+                    </ul>
+                </article>
+                <article class="dms-type-card">
+                    <h3>Manufacturing Documents</h3>
+                    <ul class="dms-bullet-list">
+                        <li>BMR/BPR references and controlled shopfloor procedures</li>
+                        <li>Line clearance instructions and process documentation</li>
+                        <li>Controlled access to current production records</li>
+                    </ul>
+                </article>
+                <article class="dms-type-card">
+                    <h3>QC Laboratory Documents</h3>
+                    <ul class="dms-bullet-list">
+                        <li>Test methods, STPs, and instrument SOPs</li>
+                        <li>Analytical references and method revisions</li>
+                        <li>Controlled visibility into approved laboratory procedures</li>
+                    </ul>
+                </article>
+                <article class="dms-type-card">
+                    <h3>Technical Documents</h3>
+                    <ul class="dms-bullet-list">
+                        <li>Equipment manuals, calibration procedures, and maintenance instructions</li>
+                        <li>Engineering specifications and supporting technical files</li>
+                    </ul>
+                </article>
+                <article class="dms-type-card">
+                    <h3>Regulatory and Study Documents</h3>
+                    <ul class="dms-bullet-list">
+                        <li>Submission-linked files, study references, and change-driven document evidence</li>
+                        <li>Controlled archive and release traceability for global review</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="dms-lifecycle">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Lifecycle Control</span>
+                <h2 class="section-title">SOP version control with superseding and obsolete copy management</h2>
+            </div>
+
+            <div class="dms-lifecycle-grid">
+                <article class="dms-lifecycle-card"><span>1</span><h3>Draft</h3><p>Controlled editing with clear status and restricted author access.</p></article>
+                <article class="dms-lifecycle-card"><span>2</span><h3>Review</h3><p>Parallel review with complete reviewer comments and date-time history.</p></article>
+                <article class="dms-lifecycle-card"><span>3</span><h3>Approve</h3><p>Formal approval workflow with enforced authentication and sign-off.</p></article>
+                <article class="dms-lifecycle-card"><span>4</span><h3>Release</h3><p>Version numbering, publication, and print authorization logic.</p></article>
+                <article class="dms-lifecycle-card"><span>5</span><h3>Supersede</h3><p>Automatic retirement of prior versions with notifications and withdrawal.</p></article>
+                <article class="dms-lifecycle-card"><span>6</span><h3>Obsolete & Archive</h3><p>Explicit revocation of active use with controlled archive access and history retention.</p></article>
+            </div>
+        </div>
+    </section>
+
+    <section class="dms-authoring">
+        <div class="container dms-authoring-grid">
+            <article class="dms-authoring-card">
+                <div class="dms-authoring-media">
+                    <img src="images/dms/slide1.png" alt="DMS authoring view">
+                </div>
+                <div class="dms-authoring-copy">
+                    <span class="section-badge">Secure Authoring</span>
+                    <h3>Microsoft Word-based authoring without uncontrolled local copies</h3>
+                    <ul class="dms-bullet-list">
+                        <li>Create and edit documents through controlled workflows</li>
+                        <li>Restrict local saving and downloading based on role</li>
+                        <li>Maintain complete audit visibility for each edit and save action</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="dms-authoring-card">
+                <div class="dms-authoring-media">
+                    <img src="images/dms/slide2.png" alt="DMS document comparison">
+                </div>
+                <div class="dms-authoring-copy">
+                    <span class="section-badge">Document Comparison</span>
+                    <h3>Compare internal document revisions with full change visibility</h3>
+                    <ul class="dms-bullet-list">
+                        <li>Compare any two approved or draft versions of the same document</li>
+                        <li>Highlight text changes across internal revisions</li>
+                        <li>Support better reviewer decisions with version-aware context</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="dms-print-control">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Controlled Distribution</span>
+                <h2 class="section-title">Print issuance, controlled copies, and retrieval tracking</h2>
+                <p class="section-subtitle">
+                    Close the gap between digital records and physical floor copies with barcode-based issuance, verification, and reconciliation.
+                </p>
+            </div>
+
+            <div class="dms-print-grid">
+                <article class="dms-print-card"><h3>Approve and Lock</h3><p>Finalize approved versions, freeze content, and apply release metadata before any distribution.</p></article>
+                <article class="dms-print-card"><h3>Print Issuance</h3><p>Grant print rights by role or site with watermarks such as controlled copy, uncontrolled copy, training copy, and draft copy.</p></article>
+                <article class="dms-print-card"><h3>Barcode and Verification</h3><p>Generate unique barcode labels for each physical copy and verify approval status at point of use.</p></article>
+                <article class="dms-print-card"><h3>Distribution</h3><p>Distribute only current documents through approved lists with acknowledgement tracking.</p></article>
+                <article class="dms-print-card"><h3>Reconciliation</h3><p>Track issued paper copies, retrieval status, and print audit evidence during inspections.</p></article>
+            </div>
+
+            <div class="dms-print-feature-row">
+                <div class="dms-print-feature"><strong>Dynamic Barcode Generation</strong><span>Unique identity for every printed physical copy.</span></div>
+                <div class="dms-print-feature"><strong>Point-of-Use Verification</strong><span>Real-time validation of approval state and version before use.</span></div>
+                <div class="dms-print-feature"><strong>Comprehensive Print Audit</strong><span>Per-user print history, distribution records, and location traceability.</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dms-ai-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">AI-Powered</span>
+                <h2 class="section-title">Intelligent OCR and search for regulated document management</h2>
+            </div>
+
+            <div class="dms-ai-grid">
+                <article class="dms-ai-card"><h3>AI-Powered OCR</h3><p>Convert scans and images into searchable, structured content for faster discovery and less manual transcription.</p></article>
+                <article class="dms-ai-card"><h3>Intelligent Search</h3><p>Surface relevant content quickly with context-aware retrieval across document stores and metadata.</p></article>
+                <article class="dms-ai-card"><h3>Voice-Activated Search</h3><p>Accelerate hands-free retrieval when speed matters during review or audit preparation.</p></article>
+                <article class="dms-ai-card"><h3>E-Discovery Support</h3><p>Shorten evidence gathering cycles with faster review, filtering, and controlled retrieval.</p></article>
+                <article class="dms-ai-card"><h3>Team-Wide Accessibility</h3><p>Provide consistent access to current controlled documents across functions and locations.</p></article>
+            </div>
+        </div>
+    </section>
+
+    <section class="dms-integrations">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">aPaaS for Life Sciences</span>
+                <h2 class="section-title">GMP-compliant DMS integrations for end-to-end document traceability</h2>
+            </div>
+
+            <div class="dms-integration-grid">
+                <article class="dms-integration-card"><h3>LMS</h3><p>Trigger training needs from new SOP introductions and version changes.</p></article>
+                <article class="dms-integration-card"><h3>eQMS</h3><p>Link document revisions to change control, CAPA, and audit findings.</p></article>
+                <article class="dms-integration-card"><h3>RIMS</h3><p>Drive document updates from regulatory findings and submission needs.</p></article>
+                <article class="dms-integration-card"><h3>LIMS</h3><p>Manage test methods and lab procedures alongside analytical records.</p></article>
+                <article class="dms-integration-card"><h3>eLogbook</h3><p>Reference current templates and approved operating instructions from digital logbook workflows.</p></article>
+                <article class="dms-integration-card"><h3>Cleaning Validation</h3><p>Serve approved cleaning procedures through governed document access.</p></article>
+                <article class="dms-integration-card"><h3>eBMR/MES</h3><p>Provide controlled access to BMR/BPR-related documents in execution workflows.</p></article>
+                <article class="dms-integration-card"><h3>CAPS</h3><p>Support calibration and maintenance teams with controlled technical procedures.</p></article>
+                <article class="dms-integration-card"><h3>SAP</h3><p>Integrate with enterprise planning and master data processes.</p></article>
+                <article class="dms-integration-card"><h3>UMS</h3><p>Connect identity, permissions, and governed user management across systems.</p></article>
+            </div>
+        </div>
+    </section>
+
+    <section class="dms-platform">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Platform Strengths</span>
+                <h2 class="section-title">Low-code DMS platform strengths and AI-enabled value</h2>
+            </div>
+
+            <div class="dms-platform-grid">
+                <article class="dms-platform-card"><h3>LCNC Drag-and-Drop Designer</h3><p>Reduce custom code and accelerate document workflow composition with visual configuration.</p></article>
+                <article class="dms-platform-card"><h3>Cloud-Ready Pharma DMS</h3><p>Support faster deployment timelines and quicker time to value across regulated sites.</p></article>
+                <article class="dms-platform-card"><h3>Regulated Industry Fit</h3><p>Designed for documentation, audit readiness, and life sciences operational discipline.</p></article>
+                <article class="dms-platform-card"><h3>18+ COTS Applications</h3><p>Extend document control into adjacent quality, training, and manufacturing workflows.</p></article>
+                <article class="dms-platform-card"><h3>Life Sciences Customer Base</h3><p>Built around the real requirements of regulated operations, not generic file storage.</p></article>
+                <article class="dms-platform-card"><h3>AI-Enabled Automation</h3><p>Use AI to accelerate extraction, composition, search, and processing across the document lifecycle.</p></article>
+            </div>
+        </div>
+    </section>
+
+    <section class="dms-impact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Measurable Impact</span>
+                <h2 class="section-title">Business benefits of digital document management</h2>
+            </div>
+
+            <div class="dms-impact-grid">
+                <article class="dms-impact-card"><strong>25%</strong><h3>Audit Findings Reduction</h3><p>Reduce document-control findings through tighter release and version governance.</p></article>
+                <article class="dms-impact-card"><strong>30%</strong><h3>Time to Release Improvement</h3><p>Accelerate document approval, release, and visibility for controlled usage.</p></article>
+                <article class="dms-impact-card"><strong>50%</strong><h3>Manual Effort Saved</h3><p>Cut reconciliation effort across review, issuance, retrieval, and audit preparation.</p></article>
+            </div>
+        </div>
+    </section>
+
+    <section class="dms-closing">
+        <div class="container">
+            <div class="dms-closing-card">
+                <div>
+                    <span class="section-badge dms-badge-dark">Inspection Ready</span>
+                    <h2>Schedule a live demo with sample SOPs and batch records</h2>
+                    <p>
+                        See controlled printing, print issuance, superseding workflows, audit trails, and end-to-end traceability in a SciNEXA document management experience tailored for life sciences.
+                    </p>
+                </div>
+                <div class="dms-closing-actions">
+                    <a href="index.html#contact" class="btn btn-primary">Schedule a Free Demo</a>
+                    <a href="index.html#contact" class="btn dms-outline-btn">Request Brochure</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="footer-logo-tile"><img src="images/scinexa-logo.png" alt="SciNEXA Infotech" loading="lazy"></a>
+                <h2 class="footer-heading">Document Management System (DMS) for Pharma &amp; Life Sciences</h2>
+                <p>SciNEXA Infotech provides a secure Electronic Document Management System (eDMS) that helps pharmaceutical companies manage documents, ensure compliance, automate workflows and meet 21 CFR Part 11 requirements.</p>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/TeraCliqSolutions" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="ic ic-linkedin" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect class="t" x="3" y="3" width="18" height="18" rx="5"/><path d="M8 10.8V16M12 16v-5.2M12 12.9c0-1.4 1-2.2 2.2-2.2 1.3 0 2 .9 2 2.4V16"/><circle class="a" cx="8" cy="7.9" r="1.1"/></svg></a>
+                    <a href="mailto:info@teracliq.com" aria-label="Mail"><svg class="ic ic-mail" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect class="t" x="3" y="5" width="18" height="14" rx="3.5"/><path d="M4.5 8.5L12 13.5l7.5-5"/><circle class="a" cx="19" cy="6" r="2.1"/></svg></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#solutions">Solutions</a></li>
+                    <li><a href="index.html#modules">Modules</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Our Modules</h4>
+                <ul>
+                    <li><a href="dms.html">Document Management</a></li>
+                    <li><a href="LMS.html">Learning Management</a></li>
+                    <li><a href="eQMS.html">Quality Management</a></li>
+                    <li><a href="Stability.html">Stability Management</a></li>
+                    <li><a href="LIMS.html">Sample Management</a></li>
+                    <li><a href="eLogbook.html">Electronic Logbooks</a></li>
+                </ul>
+            </div>
+            <div class="footer-links footer-gmp">
+                <h4>GMP Solutions</h4>
+                <ul><li><a href="APQR.html">APQR</a></li><li><a href="CPV.html">CPV</a></li><li><a href="CVS.html">CVS</a></li><li><a href="eQMS.html">eQMS</a></li><li><a href="dms.html">DMS</a></li><li><a href="LMS.html">LMS</a></li><li><a href="LIMS.html">LIMS</a></li><li><a href="Stability.html">Stability</a></li><li><a href="QCPlanning.html">QC Planning</a></li><li><a href="eBMR.html">eBMR/MES</a></li><li><a href="eLogbook.html">eLogbook</a></li><li><a href="CAPS.html">CAPS</a></li><li><a href="UAM.html">UAM</a></li><li><a href="RIMS.html">RIMS</a></li></ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><svg class="ic ic-mail" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect class="t" x="3" y="5" width="18" height="14" rx="3.5"/><path d="M4.5 8.5L12 13.5l7.5-5"/><circle class="a" cx="19" cy="6" r="2.1"/></svg><a href="mailto:info@teracliq.com">info@teracliq.com</a></li>
+                    <li><svg class="ic ic-phone" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="t" d="M5 4h3.4l1.6 4-2.1 1.4a10.5 10.5 0 0 0 4.7 4.7L14 12l4 1.6V17a2 2 0 0 1-2 2A12.5 12.5 0 0 1 3 6a2 2 0 0 1 2-2z"/><path class="ac" d="M14.5 5.8a4 4 0 0 1 3.7 3.7M14.5 2.6a7.2 7.2 0 0 1 6.9 6.9"/></svg><span><a href="tel:+919867264526">+91 98672 64526</a> / <a href="tel:+916391053055">63910 53055</a></span></li>
+                    <li><svg class="ic ic-pin" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="t" d="M12 21s7-5.6 7-11.2A7 7 0 0 0 5 9.8C5 15.4 12 21 12 21z"/><circle class="a" cx="12" cy="9.8" r="2.5"/></svg><span>WeWork, Bandra Kurla Complex,<br>Bandra East, Mumbai,<br>Maharashtra, 400051</span></li>
+                </ul>
+                <a class="footer-map-link" href="https://www.google.com/maps/search/?api=1&amp;query=WeWork%2C+Bandra+Kurla+Complex%2C+Bandra+East%2C+Mumbai%2C+Maharashtra%2C+400051" target="_blank" rel="noopener">View on map &rarr;</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SciNEXA Infotech. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            <a href="https://www.teracliq.com" target="_blank" rel="noopener">www.teracliq.com</a>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
